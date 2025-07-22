@@ -67,17 +67,26 @@ graph TD
     A --> F[Monitoring Agent]
     A --> G[Human Oversight Interface]
 
-    B -->|Extract use case details| H[Project Management Tools<br>(e.g., Jira, Airtable)]
+    B -->|Extract use case details| H["Project Management Tools
+    (e.g., Jira, Airtable)"]
     B -->|Validate feasibility| I[Data Catalog & Compliance DB]
-    C -->|Collect/Generate data| J[Data Sources<br>(Internal/External)]
-    C -->|Preprocess data| K[Preprocessing Pipeline<br>(pandas, NLTK, OpenCV)]
-    D -->|Select model| L[Model Zoo<br>(Hugging Face, TensorFlow Hub)]
-    D -->|Fine-tune model| M[Training Pipeline<br>(PyTorch, TensorFlow)]
-    E -->|Build inference API| N[API Framework<br>(FastAPI, ONNX Runtime)]
-    E -->|Deploy to staging/production| O[Cloud Platform<br>(AWS, Kubernetes)]
-    F -->|Monitor performance| P[Monitoring Tools<br>(Prometheus, Grafana)]
+    C -->|Collect/Generate data| J["Data Sources
+    (Internal/External)"]
+    C -->|Preprocess data| K["Preprocessing Pipeline
+    (pandas, NLTK, OpenCV)"]
+    D -->|Select model| L["Model Zoo
+    (Hugging Face, TensorFlow Hub)"]
+    D -->|Fine-tune model| M["Training Pipeline
+    (PyTorch, TensorFlow)"]
+    E -->|Build inference API| N["API Framework
+    (FastAPI, ONNX Runtime)"]
+    E -->|Deploy to staging/production| O["Cloud Platform
+    (AWS, Kubernetes)"]
+    F -->|Monitor performance| P["Monitoring Tools
+    (Prometheus, Grafana)"]
     F -->|Trigger retraining| M
-    F -->|Generate alerts| Q[Alerting System<br>(PagerDuty, Slack)]
+    F -->|Generate alerts| Q["Alerting System
+    (PagerDuty, Slack)"]
 
     G -->|Review/Approve| B
     G -->|Review/Approve| D
