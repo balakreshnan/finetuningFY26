@@ -129,7 +129,7 @@ graph TD
 ```
 
 ## Visual Reference
-![FineTuning-FTaaS](https://github.com/balakreshnan/finetuningFY26/blob/main/FineTuningFY26/fine_tuning_as_a_service.png 'Architecture')
+![FineTuning-FTaaS](https://github.com/balakreshnan/finetuningFY26/blob/main/FineTuningFY26/finetuningfunctionalblocks.jpg 'Architecture')
 - **Note**: The image shows the original layout with Fine Tuning, Data Set Creation, Inferencing, Controls & Monitoring, Common Utilities, and Project Onboarding blocks. The Mermaid diagram enhances this by adding System Integration & Infrastructure, aligning with the detailed blueprint.
 
 ## Security & Compliance
