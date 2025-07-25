@@ -3,6 +3,10 @@
 ## Overview
 This blueprint outlines a scalable architecture for a "Fine Tuning as a Service" platform, integrating fine-tuning, inference, dataset creation, governance, monitoring, and utilities. It ensures end-to-end visibility into model portfolios, secure access control, responsible AI practices, and industry-specific customization.
 
+## Visual Reference
+![FineTuning-FTaaS](https://github.com/balakreshnan/finetuningFY26/blob/main/FineTuningFY26/finetuningfunctionalblocks.jpg 'Architecture')
+- **Note**: The image shows the original layout with Fine Tuning, Data Set Creation, Inferencing, Controls & Monitoring, Common Utilities, and Project Onboarding blocks. The Mermaid diagram enhances this by adding System Integration & Infrastructure, aligning with the detailed blueprint.
+
 ## Components and Details
 
 ### 1. Fine Tuning
@@ -128,9 +132,6 @@ graph TD
     class A,B,C,D,E,F,G block;
 ```
 
-## Visual Reference
-![FineTuning-FTaaS](https://github.com/balakreshnan/finetuningFY26/blob/main/FineTuningFY26/finetuningfunctionalblocks.jpg 'Architecture')
-- **Note**: The image shows the original layout with Fine Tuning, Data Set Creation, Inferencing, Controls & Monitoring, Common Utilities, and Project Onboarding blocks. The Mermaid diagram enhances this by adding System Integration & Infrastructure, aligning with the detailed blueprint.
 
 ## Security & Compliance
 - **Access Control**: RBAC/ABAC via Common Utilities (Throttling, Guardrails).
